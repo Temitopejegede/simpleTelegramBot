@@ -47,5 +47,16 @@ public class Bot extends TelegramLongPollingBot {
         return commonResponses.get(question);
     }
 
+    /**
+     * calculates the degree of similarity the statement sent to the bot is to the statements stored in the bot's memory
+     *
+     * @param response: this is the statement sent to the bot
+     * @return a floating point number between 0 and 1
+     */
+    public double calculateSimilarityScore(String response){
+
+        return 0;
+    }
+
 
 }

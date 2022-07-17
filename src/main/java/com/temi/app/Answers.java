@@ -2,8 +2,6 @@ package com.temi.app;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.LocalTime;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
@@ -21,6 +19,7 @@ public class Answers {
         commonAnswers.put("what day of the week is it today?", Calendar.getInstance().getTime().toString().substring(0,3)+"day");
         commonAnswers.put("what time is it?", "It is "+ date);
         commonAnswers.put(".", ".");
+        commonAnswers.put("How was your day?", "I have been sitting in this computer all day. I am bored");
         return commonAnswers;
     }
 
